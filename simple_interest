@@ -1,0 +1,10 @@
+# taking the inputs for simple interest 
+
+P = float(input("Enter the principle amount : "))   #principle amount
+N = float(input("Enter the number of years : "))    #time period in years
+R = float(input("Enter the rate of interest : "))   #rate of interest
+
+# Simple interest calculation
+
+SI = (P * N * R)/100
+print("Simple interest : {}".format(SI))
