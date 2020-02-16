@@ -1,0 +1,6 @@
+p = float(input("Enter principle: "))
+r = float(input("Enter rate of interest: "))
+n = float(input("Enter number of times interest applied per period of time: "))
+t = float(input("Enter time in years: "))
+amt = str(p*(1+r/n)**(n*t))
+print('Final amount is: ' + amt)
