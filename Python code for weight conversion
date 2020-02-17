@@ -1,0 +1,8 @@
+weight = input('Weight: ')
+w = input('(L)bs or (K)gs: ')
+if w.upper() == 'K':
+    weight_show = int(weight) * 0.45
+    print('Weight in lbs: ' + str(weight_show))
+else:
+    weight_show = int(weight) / 0.45
+    print('Weight in kgs: ' + str(weight_show))
