@@ -1,0 +1,6 @@
+numbers = [ 5, 3, 7, 8, 9]
+output = 0
+for largest in numbers:
+    if largest > output:
+        output = largest
+print(f'Largest number is: {output}')
